@@ -1,0 +1,28 @@
+server:
+  port: 3000
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/stockApp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+      format_sql: true
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+management:
+   endpoints:
+     web:
+       exposure:
+         include:
+         - "*"
+         exclude:
+         
+       base-path: /stock-master
+        
+   endpoint:
+     shutdown:
+        enabled: true

@@ -12,7 +12,7 @@ public class StockApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(StockApplication.class, args);
-		
+		System.out.println("sfk");
 	}
 
 	@Override
@@ -24,5 +24,6 @@ public class StockApplication extends SpringBootServletInitializer{
 	public ModelMapper modeMapper() {
 		return new ModelMapper();
 	}
+	
 
 }

@@ -1,1 +1,1 @@
-insert into stock values(1,"sbi","nifty",3355);
+insert into stock(stock_id,name,market_name,price) values(111111,"sbi","nifty",3355);

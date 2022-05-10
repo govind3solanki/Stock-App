@@ -18,6 +18,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "Stock")
 /*
  * //@NamedQueries()
+ * 
  * @NamedQuery(name = "Stock.findStockByItsNameAndPrice", query =
  * "From MyStock s where s.name=?1 and s.price=?2") //@NamedQuery(name =
  * "Stock.findStockByItsName", query = "From MyStock s where s.name=?1")
